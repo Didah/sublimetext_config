@@ -1,0 +1,24 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"/home/didah/Repos/incasa-web/venv/bin/python\" -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "/home/didah/Repos/incasa-web"
+		}
+	],
+	"settings":
+	{
+		"anaconda_linting_behaviour": "load-save",
+		"anaconda_linter_mark_style": "fill",
+		"pep8_ignore": ["E501"],
+		"python_interpreter": "~/Repos/incasa-web/venv/bin/python"
+	}
+}
